@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFEFEF;
+}
+
+footer {
+    margin-bottom: 10px;
+    text-align: center;
+}
+h1 {
+    margin: 1.5rem 0;
+    color: #12498b;
+    text-align: center;
+}
+.encrypt-section {
+    padding: 5px;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70vw;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.encryption {
+    padding: 2rem 2.5rem;
+    background-color: white;
+    width:60%;
+    flex-grow: 1;
+    min-width: 300px;
+}
+
+.decryption {
+    padding: 6.3rem 2.5rem 2rem;
+    min-width: 300px;
+    width: 40%;
+    background-color: #4B6EE6;
+    flex-grow: 1;
+}
+
+.texto-encriptar {
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    resize: none;
+    outline: none;
+    border-color: #E6E6E6;
+}
+
+.texto-desencriptado {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #5D7CE8;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.encrypt-buttons {
+    padding: 10px 0;
+    margin-top: 10px;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 10px 20px; /*corregir o quitar*/
+    height: 60px;
+    width: 40%;
+    border-radius: 18px;
+    flex-grow: 1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.not-found {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343A40;
+}
+
+.text-alter {
+    color:white;
+    font-size: 16px;
+    font-weight:400;
+}
+
+#btn-encriptar{
+    background-color: #FF7C0A;
+    color: white;
+    border: none;
+    min-width: 200px;
+    margin-bottom: 15px;
+}
+
+#btn-desencriptar {
+    background-color: white;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+#btn-copiar {
+    width: 100%;
+    background-color: white;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    margin-top: 42px;
+}
+
+@media (max-width: 768px) {
+    .encrypt-section {
+        margin-bottom: 1.5rem;
+        height: auto;
+    }
+    .container {
+        width: 95vw;
+    }
+}
+
+@media (max-width: 1068px) {
+    .encrypt-section {
+            
+        margin-bottom: 1.5rem;
+    }
+    .container {
+        width: 85vw;
+    }
+}
+
+@media (max-width: 560px) {
+    .container {
+        width: 98vw;
+    }
+}
+
